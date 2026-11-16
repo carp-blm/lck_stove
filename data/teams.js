@@ -105,9 +105,11 @@ window.STOVE = {
     ],
     staff: [
       { role: "감독", nick: "kkOma", name: "김정균", until: 2026 },
-      { role: "감독대행", nick: "Tom", name: "임재현", until: 2026 },
+      { role: "감독대행", nick: "Tom", name: "임재현", until: 2026, rumorNote: "코치 잔류설" },
       { role: "코치", nick: "Mata", name: "조세형", until: 2026 },
       { role: "코치", nick: "Easyhoon", name: "이지훈", until: 2026 },
+      { role: "감독", nick: "Roach", name: "김강희", until: null, rumor: true },
+      { role: "코치", nick: "Sky", name: "", until: null, rumor: true },
     ],
     second: {
       name: "T1 Esports Academy",
