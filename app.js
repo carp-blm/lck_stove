@@ -7,21 +7,26 @@
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  function status(until) {
+  // ended: true  → 팀이 계약 종료를 공식 발표 (FA 확정)
+  // until <= FA_YEAR → 계약 만료(예정), 재계약/이적 미정
+  function status(p) {
+    if (p.ended) return { cls: "end", label: "FA" };
+    const until = p.until;
     if (until == null || until === "") return { cls: "", label: "–" };
     const left = Number(until) - FA_YEAR;
-    if (left <= 0) return { cls: "fa", label: "FA" };
+    if (left <= 0) return { cls: "fa", label: "만료" };
     if (left === 1) return { cls: "y1", label: "1년" };
     if (left === 2) return { cls: "y2", label: "2년" };
     return { cls: "y3", label: left + "년" };
   }
 
   function row(p, label) {
-    const st = status(p.until);
+    const st = status(p);
     const classes = ["row"];
     if (st.cls) classes.push("st-" + st.cls);
+    if (st.cls === "fa" || st.cls === "end") classes.push("free");
     if (p.rumor) classes.push("rumor");
-    const until = p.until && st.cls !== "fa" ? `<span class="until">~${esc(p.until)}</span>` : "";
+    const until = p.until && st.cls !== "fa" && st.cls !== "end" ? `<span class="until">~${esc(p.until)}</span>` : "";
     const chip = st.cls ? `<span class="chip ${st.cls}">${st.label}</span>` : `<span class="chip" style="color:var(--dim)">–</span>`;
     return `<div class="${classes.join(" ")}">
       <span class="pos">${esc(label)}</span>
@@ -29,6 +34,7 @@
         <span class="nick">${esc(p.nick)}</span>
         ${p.name ? `<span class="real">${esc(p.name)}</span>` : ""}
         ${p.note ? `<span class="note">${esc(p.note)}</span>` : ""}
+        ${p.rumorNote ? `<span class="rumor-tag">${esc(p.rumorNote)}</span>` : ""}
       </span>
       <span class="ct">${until}${chip}</span>
     </div>`;
@@ -50,8 +56,8 @@
     let fa = 0, ok = 0;
     (list || []).forEach((p) => {
       if (p.rumor) return;
-      const s = status(p.until).cls;
-      if (s === "fa") fa++; else if (s) ok++;
+      const s = status(p).cls;
+      if (s === "fa" || s === "end") fa++; else if (s) ok++;
     });
     return { fa, ok };
   }

@@ -10,6 +10,7 @@
   --accent-2: #e8d3a2;
 
   --fa: #ff7a45;
+  --end: #ff4d5e;
   --y1: #5cc8ff;
   --y2: #3d8bff;
   --y3: #7b6cff;
@@ -91,6 +92,7 @@ body {
   border: 1px solid currentColor;
 }
 .chip.fa { color: var(--fa); background: rgba(255,122,69,.12); }
+.chip.end { color: #1a0a05; background: var(--end); border-color: var(--end); }
 .chip.y1 { color: var(--y1); background: rgba(92,200,255,.10); }
 .chip.y2 { color: var(--y2); background: rgba(61,139,255,.12); }
 .chip.y3 { color: var(--y3); background: rgba(123,108,255,.14); }
@@ -159,6 +161,8 @@ body.show-name .real { display: inline; }
 .row.st-y2 { --st: var(--y2); }
 .row.st-y3 { --st: var(--y3); }
 .row.st-fa .nick { color: #ffd2bf; }
+.row.st-end { --st: var(--end); }
+.row.st-end .nick { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--end); }
 
 /* 미확정 */
 .row.rumor { display: none; }
@@ -171,7 +175,7 @@ body.show-rumor .row.rumor {
   content: "?"; display: inline-block; margin-left: 4px;
   color: var(--rumor); font-size: 12px; font-weight: 800;
 }
-.rumor-tag { display: none; }
+.rumor-tag { display: none; color: var(--rumor); font-size: 12px; }
 body.show-rumor .rumor-tag { display: inline-block; }
 
 /* 토글 */
@@ -180,8 +184,8 @@ body.show-staff .group.staff { display: block; }
 .group.second { display: none; }
 body.show-second .group.second { display: block; }
 body:not(.show-second) .group.second { display: none !important; }
-body.only-fa .row:not(.st-fa) { display: none !important; }
-body.only-fa .group:not(:has(.row.st-fa)) { display: none !important; }
+body.only-fa .row:not(.free) { display: none !important; }
+body.only-fa .group:not(:has(.row.free)) { display: none !important; }
 
 .team-logo.fallback {
   display: grid; place-items: center; color: var(--text); background: var(--panel-2);
