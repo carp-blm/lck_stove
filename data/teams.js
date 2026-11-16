@@ -191,8 +191,9 @@ window.STOVE = {
       { pos: "SUP", nick: "Kellin", name: "김형규", until: 2026 },
     ],
     staff: [
-      { role: "감독", nick: "Rather", name: "신형섭", until: 2026 },
-      { role: "코치", nick: "Lira", name: "남태유", until: 2026 },
+      { role: "총감독", nick: "Edo", name: "박준석", until: null },
+      { role: "감독", nick: "Rather", name: "신형섭", until: 2028 },
+      { role: "코치", nick: "Lira", name: "남태유", until: 2027 },
     ],
     second: {
       name: "BNK FEARX Youth",
