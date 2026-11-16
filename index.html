@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LCK 스토브리그</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <h1 class="brand"><span class="brand-mark">LCK</span> 스토브리그 <span id="season" class="season"></span></h1>
+      <div id="summary" class="summary"></div>
+    </div>
+  </header>
+
+  <nav class="toolbar">
+    <div class="toolbar-inner">
+      <div class="toggles">
+        <label class="tg"><input type="checkbox" id="opt-rumor"><span>미확정</span></label>
+        <label class="tg"><input type="checkbox" id="opt-staff" checked><span>코치진</span></label>
+        <label class="tg"><input type="checkbox" id="opt-name"><span>실명</span></label>
+        <label class="tg"><input type="checkbox" id="opt-second"><span>2군</span></label>
+        <label class="tg"><input type="checkbox" id="opt-fa"><span>FA만</span></label>
+      </div>
+      <div class="legend">
+        <span class="chip fa">FA</span>
+        <span class="chip y1">1년</span>
+        <span class="chip y2">2년</span>
+        <span class="chip y3">3년+</span>
+        <span class="chip rumor">미확정</span>
+      </div>
+    </div>
+  </nav>
+
+  <main id="teams" class="teams"></main>
+
+  <footer class="foot"><span id="updated"></span></footer>
+
+  <script src="data/teams.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

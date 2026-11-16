@@ -1,0 +1,196 @@
+:root {
+  --bg: #08090d;
+  --panel: #12141b;
+  --panel-2: #191c25;
+  --line: #262a36;
+  --text: #f2f3f5;
+  --muted: #8a90a2;
+  --dim: #5c6273;
+  --accent: #c8aa6e;
+  --accent-2: #e8d3a2;
+
+  --fa: #ff7a45;
+  --y1: #5cc8ff;
+  --y2: #3d8bff;
+  --y3: #7b6cff;
+  --rumor: #c084fc;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+/* ---------- header ---------- */
+.top {
+  background: linear-gradient(180deg, #000 0%, #0d0f15 100%);
+  border-bottom: 1px solid var(--line);
+}
+.top-inner, .toolbar-inner, .teams, .foot {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.top-inner {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 12px; padding-top: 22px; padding-bottom: 18px;
+}
+.brand { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.02em; display: flex; align-items: center; gap: 10px; }
+.brand-mark {
+  background: var(--text); color: #000; padding: 2px 8px 1px; border-radius: 3px;
+  font-weight: 900; letter-spacing: 0.02em;
+}
+.season { color: var(--accent); font-weight: 700; }
+.summary { display: flex; gap: 18px; color: var(--muted); font-size: 13px; }
+.summary b { color: var(--text); font-size: 18px; font-weight: 800; margin-left: 6px; font-variant-numeric: tabular-nums; }
+.summary .s-fa b { color: var(--fa); }
+
+/* ---------- toolbar ---------- */
+.toolbar {
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(8, 9, 13, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.toolbar-inner {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 10px; padding-top: 10px; padding-bottom: 10px;
+}
+.toggles { display: flex; flex-wrap: wrap; gap: 6px; }
+.tg { cursor: pointer; user-select: none; }
+.tg input { position: absolute; opacity: 0; pointer-events: none; }
+.tg span {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 12px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--panel);
+  color: var(--muted); font-weight: 600; font-size: 13px;
+  transition: all .15s;
+}
+.tg span::before {
+  content: ""; width: 12px; height: 12px; border-radius: 3px;
+  border: 1.5px solid var(--dim); box-sizing: border-box;
+}
+.tg input:checked + span { color: var(--text); border-color: var(--accent); background: rgba(200,170,110,.12); }
+.tg input:checked + span::before {
+  border-color: var(--accent); background: var(--accent)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.5 6.2l2.3 2.3 4.7-4.9' fill='none' stroke='%23000' stroke-width='1.8'/%3E%3C/svg%3E") center/10px no-repeat;
+}
+.tg input:focus-visible + span { outline: 2px solid var(--accent-2); outline-offset: 2px; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  display: inline-block; padding: 2px 8px; border-radius: 4px;
+  font-size: 11px; font-weight: 700; letter-spacing: .02em;
+  border: 1px solid currentColor;
+}
+.chip.fa { color: var(--fa); background: rgba(255,122,69,.12); }
+.chip.y1 { color: var(--y1); background: rgba(92,200,255,.10); }
+.chip.y2 { color: var(--y2); background: rgba(61,139,255,.12); }
+.chip.y3 { color: var(--y3); background: rgba(123,108,255,.14); }
+.chip.rumor { color: var(--rumor); border-style: dashed; background: transparent; }
+
+/* ---------- team grid ---------- */
+.teams {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 16px; padding-top: 20px; padding-bottom: 32px;
+}
+@media (max-width: 440px) { .teams { grid-template-columns: 1fr; } }
+
+.team {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.team-head {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 16px;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--team) 22%, transparent) 0%, transparent 75%);
+  border-bottom: 1px solid var(--line);
+  border-top: 3px solid var(--team);
+}
+.team-logo {
+  width: 44px; height: 44px; flex: none; object-fit: contain;
+  border-radius: 8px;
+}
+.team-name { font-size: 17px; font-weight: 800; letter-spacing: -0.01em; }
+.team-sub { color: var(--muted); font-size: 12px; }
+.team-count { margin-left: auto; display: flex; gap: 6px; }
+.team-count .chip { font-variant-numeric: tabular-nums; }
+
+.group { padding: 6px 0; }
+.group + .group { border-top: 1px solid var(--line); }
+.group-title {
+  padding: 8px 16px 4px; color: var(--dim);
+  font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+}
+
+.row {
+  display: grid; grid-template-columns: 44px 1fr auto;
+  align-items: center; gap: 10px;
+  padding: 6px 16px 6px 13px;
+  border-left: 3px solid var(--st, transparent);
+  min-height: 36px;
+}
+.row:hover { background: var(--panel-2); }
+.pos {
+  font-size: 11px; font-weight: 800; color: var(--muted); letter-spacing: .04em;
+}
+.who { min-width: 0; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.nick { font-weight: 700; font-size: 15px; }
+.real { color: var(--muted); font-size: 12px; display: none; }
+body.show-name .real { display: inline; }
+.note { color: var(--dim); font-size: 12px; }
+
+.ct { display: flex; align-items: center; gap: 6px; font-variant-numeric: tabular-nums; }
+.ct .until { color: var(--muted); font-size: 12px; }
+.ct .chip { min-width: 42px; text-align: center; }
+
+.row.st-fa { --st: var(--fa); }
+.row.st-y1 { --st: var(--y1); }
+.row.st-y2 { --st: var(--y2); }
+.row.st-y3 { --st: var(--y3); }
+.row.st-fa .nick { color: #ffd2bf; }
+
+/* 미확정 */
+.row.rumor { display: none; }
+body.show-rumor .row.rumor {
+  display: grid;
+  background: repeating-linear-gradient(135deg, transparent 0 8px, rgba(192,132,252,.05) 8px 16px);
+  border-left-style: dashed;
+}
+.row.rumor .nick::after {
+  content: "?"; display: inline-block; margin-left: 4px;
+  color: var(--rumor); font-size: 12px; font-weight: 800;
+}
+.rumor-tag { display: none; }
+body.show-rumor .rumor-tag { display: inline-block; }
+
+/* 토글 */
+.group.staff { display: none; }
+body.show-staff .group.staff { display: block; }
+.group.second { display: none; }
+body.show-second .group.second { display: block; }
+body:not(.show-second) .group.second { display: none !important; }
+body.only-fa .row:not(.st-fa) { display: none !important; }
+body.only-fa .group:not(:has(.row.st-fa)) { display: none !important; }
+
+.team-logo.fallback {
+  display: grid; place-items: center; color: var(--text); background: var(--panel-2);
+  font-weight: 900; font-size: 12px;
+}
+
+.staff .row { grid-template-columns: 64px 1fr auto; }
+.staff .pos { color: var(--accent); }
+
+.empty { padding: 6px 16px; color: var(--dim); font-size: 12px; }
+
+.foot { color: var(--dim); font-size: 12px; padding-bottom: 28px; text-align: right; }
