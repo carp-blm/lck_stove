@@ -1,7 +1,7 @@
 (function () {
   const D = window.STOVE;
   const POS_ORDER = { TOP: 0, JGL: 1, MID: 2, BOT: 3, SUP: 4 };
-  const STAFF_ORDER = { "감독": 0, "코치": 1, "전략코치": 1, "전력분석관": 2 };
+  const STAFF_ORDER = { "감독": 0, "감독대행": 1, "코치": 2, "전략코치": 2, "전력분석관": 3 };
   // 계약 종료 연도가 이 값 이하이면 FA (기본: 다음 시즌 - 1)
   const FA_YEAR = D.season - 1;
 

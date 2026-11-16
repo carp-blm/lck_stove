@@ -10,6 +10,7 @@
      rumor : true 로 두면 '미확정' 체크 시에만 표시 (루머/미발표 영입 등)
      note  : 이름 옆 짧은 메모 (예: "← HLE", "재계약")
    코치진  : { role, nick, name, until, rumor, note }   role: "감독" | "코치" | "전력분석관" ...
+             1군 최대 4명 (LCK 규정: 감독 1 + 코치 최대 3)
 
    예시)
      { pos: "MID", nick: "Faker", name: "이상혁", until: 2029 },
@@ -95,6 +96,7 @@ window.STOVE = {
       { role: "감독", nick: "kkOma", name: "김정균", until: 2026 },
       { role: "감독대행", nick: "Tom", name: "임재현", until: 2026 },
       { role: "코치", nick: "Mata", name: "조세형", until: 2026 },
+      { role: "코치", nick: "Easyhoon", name: "이지훈", until: 2026 },
     ],
     second: {
       name: "T1 Esports Academy",
@@ -128,6 +130,7 @@ window.STOVE = {
       { role: "감독", nick: "Score", name: "고동빈", until: 2029 },
       { role: "코치", nick: "Museong", name: "김무성", until: 2027 },
       { role: "코치", nick: "Sonstar", name: "손승익", until: 2026 },
+      { role: "전력분석관", nick: "Highness", name: "박지원", until: null },
     ],
     second: {
       name: "KT Rolster Challengers",
