@@ -266,7 +266,7 @@ window.STOVE = {
     id: "dns", name: "DN 수퍼스", color: "#3d6cf5",
     logo: "assets/logos/dns.webp",
     players: [
-      { pos: "TOP", nick: "DuDu", name: "이동주", until: 2026, rumorNote: "재계약설" },
+      { pos: "TOP", nick: "DuDu", name: "이동주", until: 2028 },
       { pos: "JGL", nick: "Pyosik", name: "홍창현", until: 2026, rumorNote: "→ NS설" },
       { pos: "JGL", nick: "Sharvel", name: "김단우", until: 2026, rumorNote: "→ GEN설" },
       { pos: "MID", nick: "Clozer", name: "이주현", until: 2026 },
