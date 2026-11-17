@@ -255,9 +255,9 @@ window.STOVE = {
       players: [
         { pos: "TOP", nick: "Janus", name: "엄예준", until: 2027 },
         { pos: "JGL", nick: "MihawK", name: "김주형", until: 2027 },
-        { pos: "MID", nick: "SeTab", name: "송경진", until: 2026 },
+        { pos: "MID", nick: "SeTab", name: "송경진", until: 2026, ended: true },
         { pos: "BOT", nick: "Lucy", name: "현수훈", until: 2026 },
-        { pos: "SUP", nick: "Pleata", name: "손민우", until: 2026 },
+        { pos: "SUP", nick: "Pleata", name: "손민우", until: 2026, ended: true },
       ],
       staff: [
         { role: "코치", nick: "bon0", name: "김기범", until: 2026 },
