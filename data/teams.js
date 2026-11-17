@@ -69,6 +69,7 @@ window.STOVE = {
       { pos: "BOT", nick: "Gumayusi", name: "이민형", until: 2027 },
       { pos: "SUP", nick: "Delight", name: "유환중", until: 2027 },
       { pos: "TOP", nick: "Kiin", name: "김기인", until: null, rumor: true, note: "← GEN" },
+      { pos: "TOP", nick: "Siwoo", name: "전시우", until: null, rumor: true, note: "← DK" },
       { pos: "JGL", nick: "Canyon", name: "김건부", until: null, rumor: true, note: "← GEN" },
       { pos: "SUP", nick: "Cloud", name: "문현호", until: null, rumor: true, note: "← T1 2군 · Delight와 경합" },
     ],
@@ -169,7 +170,7 @@ window.STOVE = {
     id: "dk", name: "디플러스 기아", color: "#20c3b8",
     logo: "assets/logos/dk.png",
     players: [
-      { pos: "TOP", nick: "Siwoo", name: "전시우", until: 2027, rumorNote: "→ GEN설" },
+      { pos: "TOP", nick: "Siwoo", name: "전시우", until: 2027, rumorNote: "→ GEN/HLE설" },
       { pos: "JGL", nick: "Lucid", name: "최용혁", until: 2027 },
       { pos: "MID", nick: "ShowMaker", name: "허수", until: 2026 },
       { pos: "BOT", nick: "Smash", name: "신금재", until: 2026 },
