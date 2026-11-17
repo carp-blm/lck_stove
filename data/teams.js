@@ -248,7 +248,6 @@ window.STOVE = {
     staff: [
       { role: "감독", nick: "DanDy", name: "최인규", until: 2027 },
       { role: "코치", nick: "Chelly", name: "박승진", until: 2027 },
-      { role: "코치", nick: "Crazy", name: "김재희", until: 2026, ended: true },
     ],
     second: {
       name: "Nongshim Esports Academy",
