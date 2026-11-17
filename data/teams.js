@@ -82,10 +82,10 @@ window.STOVE = {
       players: [
         { pos: "TOP", nick: "Panther", name: "박지호", until: 2026 },
         { pos: "JGL", nick: "Jackal", name: "이수민", until: 2026 },
-        { pos: "MID", nick: "Cracker", name: "이정욱", until: 2026 },
-        { pos: "MID", nick: "Valiant", name: "한강현", until: 2026 },
+        { pos: "MID", nick: "Cracker", name: "이정욱", until: 2026, ended: true },
+        { pos: "MID", nick: "Valiant", name: "한강현", until: 2026, ended: true },
         { pos: "BOT", nick: "Pyeonsik", name: "편민기", until: 2026 },
-        { pos: "SUP", nick: "Bluffing", name: "박규용", until: 2026 },
+        { pos: "SUP", nick: "Bluffing", name: "박규용", until: 2026, ended: true },
       ],
       staff: [
         { role: "감독", nick: "Sensation", name: "김동현", until: 2027 },
@@ -282,6 +282,7 @@ window.STOVE = {
     staff: [
       { role: "감독", nick: "Ggoong", name: "유병준", until: 2028 },
       { role: "코치", nick: "Minit", name: "양현민", until: 2027 },
+      { role: "코치", nick: "Crazy", name: "김재희", until: 2027, note: "← NS" },
       { role: "전력분석관", nick: "Millimas", name: "김건우", until: 2026, ended: true },
     ],
     second: {
