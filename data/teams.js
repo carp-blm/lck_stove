@@ -236,7 +236,7 @@ window.STOVE = {
     logo: "assets/logos/ns.png",
     players: [
       { pos: "TOP", nick: "Kingen", name: "황성훈", until: 2026, rumorNote: "재계약설" },
-      { pos: "JGL", nick: "Sponge", name: "배영준", until: 2026 },
+      { pos: "JGL", nick: "Sponge", name: "배영준", until: 2026, ended: true },
       { pos: "MID", nick: "Calix", name: "선현빈", until: 2026, rumorNote: "재계약설" },
       { pos: "MID", nick: "Scout", name: "이예찬", until: 2026, ended: true, rumorNote: "→ KRX설" },
       { pos: "BOT", nick: "Diable", name: "남대근", until: 2026, ended: true },
