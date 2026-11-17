@@ -55,7 +55,7 @@ window.STOVE = {
         { pos: "SUP", nick: "SIRIUSS", name: "고건", until: 2026, ended: true },
       ],
       staff: [
-        { role: "코치", nick: "Jerry", name: "강성준", until: 2026, ended: true },
+        { role: "감독", nick: "Jerry", name: "강성준", until: 2026, ended: true },
       ],
     },
   },
