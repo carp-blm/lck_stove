@@ -47,15 +47,15 @@ window.STOVE = {
     second: {
       name: "Gen.G Global Academy",
       players: [
-        { pos: "TOP", nick: "Ripple", name: "변종민", until: 2026 },
-        { pos: "JGL", nick: "Courage", name: "전현민", until: 2026 },
-        { pos: "MID", nick: "Kemish", name: "김시훈", until: 2026 },
-        { pos: "BOT", nick: "MUDAI", name: "이선규", until: 2026 },
-        { pos: "SUP", nick: "Lumos", name: "김재민", until: 2026 },
-        { pos: "SUP", nick: "SIRIUSS", name: "고건", until: 2026 },
+        { pos: "TOP", nick: "Ripple", name: "변종민", until: null },
+        { pos: "JGL", nick: "Courage", name: "전현민", until: null },
+        { pos: "MID", nick: "Kemish", name: "김시훈", until: null },
+        { pos: "BOT", nick: "MUDAI", name: "이선규", until: null },
+        { pos: "SUP", nick: "Lumos", name: "김재민", until: null },
+        { pos: "SUP", nick: "SIRIUSS", name: "고건", until: null },
       ],
       staff: [
-        { role: "코치", nick: "Jerry", name: "강성준", until: 2026 },
+        { role: "코치", nick: "Jerry", name: "강성준", until: null },
       ],
     },
   },
@@ -134,7 +134,7 @@ window.STOVE = {
     logo: "assets/logos/kt.png",
     players: [
       { pos: "TOP", nick: "PerfecT", name: "이승민", until: 2028 },
-      { pos: "JGL", nick: "Cuzz", name: "문우찬", until: 2027, rumorNote: "→ DNS설" },
+      { pos: "JGL", nick: "Cuzz", name: "문우찬", until: null, rumorNote: "→ DNS설" },
       { pos: "MID", nick: "Bdd", name: "곽보성", until: 2028 },
       { pos: "BOT", nick: "Jiwoo", name: "정지우", until: 2026, ended: true },
       { pos: "SUP", nick: "Effort", name: "이상호", until: 2026, ended: true },
@@ -159,8 +159,8 @@ window.STOVE = {
         { pos: "SUP", nick: "Pollu", name: "오동규", until: 2026, ended: true },
       ],
       staff: [
-        { role: "감독", nick: "Spark", name: "강병률", until: 2026 },
-        { role: "코치", nick: "Lilac", name: "전호진", until: 2026 },
+        { role: "감독", nick: "Spark", name: "강병률", until: null },
+        { role: "코치", nick: "Lilac", name: "전호진", until: null },
       ],
     },
   },
