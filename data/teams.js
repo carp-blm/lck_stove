@@ -74,8 +74,10 @@ window.STOVE = {
     ],
     staff: [
       { role: "감독", nick: "Homme", name: "윤성영", until: 2026, ended: true },
-      { role: "코치", nick: "Mowgli", name: "이재하", until: 2027 },
+      { role: "감독", nick: "Mowgli", name: "이재하", until: 2027, note: "코치 → 감독" },
       { role: "코치", nick: "Sin", name: "연형모", until: 2026, ended: true },
+      { role: "코치", nick: "Life", name: "김정민", until: null, rumor: true, note: "← DNS (선수)" },
+      { role: "코치", nick: "Sonstar", name: "손승익", until: null, rumor: true, note: "← KT" },
     ],
     second: {
       name: "Hanwha Life Esports Challengers",
@@ -144,7 +146,7 @@ window.STOVE = {
     staff: [
       { role: "감독", nick: "Score", name: "고동빈", until: 2029 },
       { role: "코치", nick: "Museong", name: "김무성", until: 2027 },
-      { role: "코치", nick: "Sonstar", name: "손승익", until: 2026, ended: true },
+      { role: "코치", nick: "Sonstar", name: "손승익", until: 2026, ended: true, rumorNote: "→ HLE설" },
       { role: "전력분석관", nick: "Highness", name: "박지원", until: null },
     ],
     second: {
@@ -271,7 +273,7 @@ window.STOVE = {
       { pos: "JGL", nick: "Sharvel", name: "김단우", until: 2026, ended: true, rumorNote: "→ GEN설" },
       { pos: "MID", nick: "Clozer", name: "이주현", until: 2026, ended: true },
       { pos: "BOT", nick: "deokdam", name: "서대길", until: 2027 },
-      { pos: "SUP", nick: "Life", name: "김정민", until: 2026, ended: true },
+      { pos: "SUP", nick: "Life", name: "김정민", until: 2026, ended: true, rumorNote: "→ HLE 코치설" },
       { pos: "SUP", nick: "Peter", name: "정윤수", until: 2026, ended: true },
       { pos: "JGL", nick: "Cuzz", name: "문우찬", until: 2027, note: "← KT" },
       { pos: "MID", nick: "Ucal", name: "손우현", until: null, rumor: true, note: "← KRX" },
