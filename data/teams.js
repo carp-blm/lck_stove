@@ -239,7 +239,7 @@ window.STOVE = {
       { pos: "JGL", nick: "Sponge", name: "배영준", until: 2026 },
       { pos: "MID", nick: "Calix", name: "선현빈", until: 2026, rumorNote: "재계약설" },
       { pos: "MID", nick: "Scout", name: "이예찬", until: 2026, ended: true, rumorNote: "→ KRX설" },
-      { pos: "BOT", nick: "Diable", name: "남대근", until: 2026 },
+      { pos: "BOT", nick: "Diable", name: "남대근", until: 2026, ended: true },
       { pos: "SUP", nick: "Lehends", name: "손시우", until: 2026, ended: true, rumorNote: "→ DNS설" },
       { pos: "JGL", nick: "Pyosik", name: "홍창현", until: null, rumor: true, note: "← DNS" },
       { pos: "BOT", nick: "Deft", name: "김혁규", until: null, rumor: true },
