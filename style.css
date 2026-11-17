@@ -198,3 +198,15 @@ body.only-fa .group:not(:has(.row.free)) { display: none !important; }
 .empty { padding: 6px 16px; color: var(--dim); font-size: 12px; }
 
 .foot { color: var(--dim); font-size: 12px; padding-bottom: 28px; text-align: right; }
+
+/* FA 제외: 계약 종료 행 숨기고 빈 자리 표시 */
+.row.slot-empty { display: none; }
+body.hide-ended .row.st-end { display: none !important; }
+body.hide-ended .row.slot-empty { display: grid; }
+body.hide-ended.show-rumor .row.slot-empty.has-rumor { display: none; }
+body.only-fa .row.slot-empty { display: none !important; }
+.row.slot-empty .nick {
+  color: var(--dim); font-weight: 600; font-size: 13px;
+  border: 1px dashed var(--line); border-radius: 4px; padding: 1px 10px;
+}
+.row.slot-empty .pos { color: var(--dim); }

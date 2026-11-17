@@ -44,10 +44,34 @@
   const byRole = (a, b) => (STAFF_ORDER[a.role] ?? 9) - (STAFF_ORDER[b.role] ?? 9);
 
   let secondName = "";
+  // 'FA 제외' 시 보여줄 빈 자리. 같은 포지션에 미확정 영입이 있으면 has-rumor
+  // (미확정까지 켜면 그 루머 선수가 자리를 채운 것으로 보고 빈 자리를 숨김)
+  function emptySlot(pos, hasRumor) {
+    return `<div class="row slot-empty${hasRumor ? " has-rumor" : ""}">
+      <span class="pos">${esc(pos)}</span>
+      <span class="who"><span class="nick">빈 자리</span></span>
+      <span class="ct"></span>
+    </div>`;
+  }
+
+  function playerRows(list) {
+    const sorted = [...list].sort(byPos);
+    let html = "";
+    Object.keys(POS_ORDER).forEach((pos) => {
+      const at = sorted.filter((p) => p.pos === pos);
+      html += at.map((p) => row(p, p.pos)).join("");
+      const active = at.some((p) => !p.ended && !p.rumor);
+      if (!active) html += emptySlot(pos, at.some((p) => !p.ended && p.rumor));
+    });
+    html += sorted.filter((p) => !(p.pos in POS_ORDER)).map((p) => row(p, p.pos)).join("");
+    return html;
+  }
+
   function group(title, list, kind, cls) {
     if (!list || !list.length) return "";
-    const sorted = [...list].sort(kind === "staff" ? byRole : byPos);
-    const rows = sorted.map((p) => row(p, kind === "staff" ? p.role : p.pos)).join("");
+    const rows = kind === "staff"
+      ? [...list].sort(byRole).map((p) => row(p, p.role)).join("")
+      : playerRows(list);
     const sub = cls === "second" && secondName ? ` · ${esc(secondName)}` : "";
     return `<section class="group ${cls}"><div class="group-title">${esc(title)}${sub}</div>${rows}</section>`;
   }
@@ -95,7 +119,7 @@
   }
 
   // ---------- 토글 (상태는 브라우저에 저장) ----------
-  const OPTS = { "opt-rumor": "show-rumor", "opt-staff": "show-staff", "opt-name": "show-name", "opt-second": "show-second", "opt-fa": "only-fa" };
+  const OPTS = { "opt-rumor": "show-rumor", "opt-staff": "show-staff", "opt-name": "show-name", "opt-second": "show-second", "opt-fa": "only-fa", "opt-noend": "hide-ended" };
   const KEY = "lck-stove-opts";
   let saved = {};
   try { saved = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { saved = {}; }

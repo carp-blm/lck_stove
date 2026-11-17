@@ -238,7 +238,7 @@ window.STOVE = {
       { pos: "TOP", nick: "Kingen", name: "황성훈", until: 2026, rumorNote: "재계약설" },
       { pos: "JGL", nick: "Sponge", name: "배영준", until: 2026 },
       { pos: "MID", nick: "Calix", name: "선현빈", until: 2026, rumorNote: "재계약설" },
-      { pos: "MID", nick: "Scout", name: "이예찬", until: 2026, rumorNote: "→ KRX설" },
+      { pos: "MID", nick: "Scout", name: "이예찬", until: 2026, ended: true, rumorNote: "→ KRX설" },
       { pos: "BOT", nick: "Diable", name: "남대근", until: 2026 },
       { pos: "SUP", nick: "Lehends", name: "손시우", until: 2026, ended: true, rumorNote: "→ DNS설" },
       { pos: "JGL", nick: "Pyosik", name: "홍창현", until: null, rumor: true, note: "← DNS" },
@@ -280,7 +280,7 @@ window.STOVE = {
       { pos: "SUP", nick: "Lehends", name: "손시우", until: null, rumor: true, note: "← NS" },
     ],
     staff: [
-      { role: "감독대행", nick: "Ggoong", name: "유병준", until: 2028 },
+      { role: "감독", nick: "Ggoong", name: "유병준", until: 2028 },
       { role: "코치", nick: "Minit", name: "양현민", until: 2027 },
       { role: "전력분석관", nick: "Millimas", name: "김건우", until: 2026, ended: true },
     ],
