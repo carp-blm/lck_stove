@@ -309,6 +309,7 @@ window.STOVE = {
       { pos: "JGL", nick: "GIDEON", name: "김민성", until: 2027 },
       { pos: "MID", nick: "Pungyeon", name: "이종혁", until: 2026, ended: true },
       { pos: "MID", nick: "Roamer", name: "조우진", until: 2027 },
+      { pos: "MID", nick: "SeTab", name: "송경진", until: null, note: "← NS 2군" },
       { pos: "BOT", nick: "Teddy", name: "박진성", until: 2027 },
       { pos: "SUP", nick: "Namgung", name: "남궁성훈", until: 2027 },
     ],
@@ -324,7 +325,6 @@ window.STOVE = {
       players: [
         { pos: "TOP", nick: "DDahyuk", name: "안민혁", until: 2026, ended: true },
         { pos: "MID", nick: "Tempester", name: "오영웅", until: 2026, ended: true },
-        { pos: "MID", nick: "SeTab", name: "송경진", until: null, note: "← NS 2군" },
         { pos: "BOT", nick: "OddEye", name: "조형진", until: 2026 },
         { pos: "SUP", nick: "PlanB", name: "홍준석", until: 2026 },
       ],
