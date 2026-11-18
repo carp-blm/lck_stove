@@ -238,7 +238,7 @@ window.STOVE = {
     players: [
       { pos: "TOP", nick: "Kingen", name: "황성훈", until: 2028, note: "재계약" },
       { pos: "JGL", nick: "Sponge", name: "배영준", until: 2026, ended: true },
-      { pos: "MID", nick: "Calix", name: "선현빈", until: 2026, rumorNote: "재계약설" },
+      { pos: "MID", nick: "Calix", name: "선현빈", until: 2028, note: "재계약" },
       { pos: "MID", nick: "Scout", name: "이예찬", until: 2026, ended: true, rumorNote: "→ KRX설" },
       { pos: "BOT", nick: "Diable", name: "남대근", until: 2026, ended: true },
       { pos: "SUP", nick: "Lehends", name: "손시우", until: 2026, ended: true, rumorNote: "→ DNS설" },
@@ -261,7 +261,7 @@ window.STOVE = {
         { pos: "SUP", nick: "Pollu", name: "오동규", until: 2027, note: "← KT 2군" },
       ],
       staff: [
-        { role: "코치", nick: "bon0", name: "김기범", until: 2026 },
+        { role: "코치", nick: "bon0", name: "김기범", until: 2028 },
       ],
     },
   },
@@ -277,7 +277,7 @@ window.STOVE = {
       { pos: "SUP", nick: "Life", name: "김정민", until: 2026, ended: true, rumorNote: "→ HLE 코치설" },
       { pos: "SUP", nick: "Peter", name: "정윤수", until: 2026, ended: true },
       { pos: "JGL", nick: "Cuzz", name: "문우찬", until: 2027, note: "← KT" },
-      { pos: "MID", nick: "Ucal", name: "손우현", until: null, rumor: true, note: "← KRX" },
+      { pos: "MID", nick: "Ucal", name: "손우현", until: 2027, note: "← KRX" },
       { pos: "SUP", nick: "Lehends", name: "손시우", until: null, rumor: true, note: "← NS" },
     ],
     staff: [
@@ -339,7 +339,6 @@ window.STOVE = {
     players: [
       { pos: "TOP", nick: "Frog", name: "이민회", until: 2026, ended: true },
       { pos: "JGL", nick: "Willer", name: "김정현", until: 2026, ended: true },
-      { pos: "MID", nick: "Ucal", name: "손우현", until: 2026, ended: true, rumorNote: "→ DNS설" },
       { pos: "BOT", nick: "Aiming", name: "김하람", until: 2026, ended: true },
       { pos: "SUP", nick: "Andil", name: "문관빈", until: 2026, ended: true, rumorNote: "→ NS설" },
       { pos: "TOP", nick: "Doran", name: "최현준", until: null, rumor: true, note: "← T1" },
