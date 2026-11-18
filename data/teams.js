@@ -255,10 +255,10 @@ window.STOVE = {
       players: [
         { pos: "TOP", nick: "Janus", name: "엄예준", until: 2027 },
         { pos: "JGL", nick: "MihawK", name: "김주형", until: 2027 },
-        { pos: "MID", nick: "Kemish", name: "김시훈", until: null, note: "← GEN 2군" },
-        { pos: "BOT", nick: "Lucy", name: "현수훈", until: null, note: "재계약" },
+        { pos: "MID", nick: "Kemish", name: "김시훈", until: 2027, note: "← GEN 2군" },
+        { pos: "BOT", nick: "Lucy", name: "현수훈", until: 2027, note: "재계약" },
         { pos: "SUP", nick: "Pleata", name: "손민우", until: 2026, ended: true },
-        { pos: "SUP", nick: "Pollu", name: "오동규", until: null, note: "← KT 2군" },
+        { pos: "SUP", nick: "Pollu", name: "오동규", until: 2027, note: "← KT 2군" },
       ],
       staff: [
         { role: "코치", nick: "bon0", name: "김기범", until: 2026 },
@@ -309,7 +309,7 @@ window.STOVE = {
       { pos: "JGL", nick: "GIDEON", name: "김민성", until: 2027 },
       { pos: "MID", nick: "Pungyeon", name: "이종혁", until: 2026, ended: true },
       { pos: "MID", nick: "Roamer", name: "조우진", until: 2027 },
-      { pos: "MID", nick: "SeTab", name: "송경진", until: null, note: "← NS 2군" },
+      { pos: "MID", nick: "SeTab", name: "송경진", until: 2027, note: "← NS 2군" },
       { pos: "BOT", nick: "Teddy", name: "박진성", until: 2027 },
       { pos: "SUP", nick: "Namgung", name: "남궁성훈", until: 2027 },
     ],
