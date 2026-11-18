@@ -209,7 +209,7 @@ window.STOVE = {
       { pos: "TOP", nick: "Hoya", name: "윤용호", until: null, rumor: true, note: "Hoya/Burdol/Haetae 중" },
       { pos: "TOP", nick: "Burdol", name: "노태윤", until: null, rumor: true, note: "Hoya/Burdol/Haetae 중" },
       { pos: "TOP", nick: "Haetae", name: "심수현", until: null, rumor: true, note: "← T1 2군 · Hoya/Burdol/Haetae 중" },
-      { pos: "JGL", nick: "Vincenzo", name: "하승민", until: null, rumor: true, note: "← KRX" },
+      { pos: "JGL", nick: "Vincenzo", name: "하승민", until: 2027, note: "← KRX" },
       { pos: "BOT", nick: "Noah", name: "오현택", until: null, rumor: true },
       { pos: "SUP", nick: "Quantum", name: "손정환", until: null, rumor: true, note: "← DNS 2군" },
     ],
@@ -338,7 +338,6 @@ window.STOVE = {
     logo: "assets/logos/krx.png",
     players: [
       { pos: "TOP", nick: "Frog", name: "이민회", until: 2026, ended: true },
-      { pos: "JGL", nick: "Vincenzo", name: "하승민", until: 2026, ended: true, rumorNote: "→ BFX설" },
       { pos: "JGL", nick: "Willer", name: "김정현", until: 2026, ended: true },
       { pos: "MID", nick: "Ucal", name: "손우현", until: 2026, ended: true, rumorNote: "→ DNS설" },
       { pos: "BOT", nick: "Aiming", name: "김하람", until: 2026, ended: true },
