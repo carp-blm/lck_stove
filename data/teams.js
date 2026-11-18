@@ -49,7 +49,6 @@ window.STOVE = {
       players: [
         { pos: "TOP", nick: "Ripple", name: "변종민", until: 2026, ended: true },
         { pos: "JGL", nick: "Courage", name: "전현민", until: 2026, ended: true },
-        { pos: "MID", nick: "Kemish", name: "김시훈", until: 2026, ended: true },
         { pos: "BOT", nick: "MUDAI", name: "이선규", until: 2026, ended: true },
         { pos: "SUP", nick: "Lumos", name: "김재민", until: 2026, ended: true },
         { pos: "SUP", nick: "SIRIUSS", name: "고건", until: 2026, ended: true },
@@ -159,7 +158,6 @@ window.STOVE = {
         { pos: "MID", nick: "Hwichan", name: "정휘찬", until: 2027 },
         { pos: "BOT", nick: "FenRir", name: "박강준", until: 2027 },
         { pos: "BOT", nick: "Ghost", name: "장용준", until: 2026, ended: true },
-        { pos: "SUP", nick: "Pollu", name: "오동규", until: 2026, ended: true },
       ],
       staff: [
         { role: "감독", nick: "Spark", name: "강병률", until: 2026, ended: true },
@@ -257,9 +255,10 @@ window.STOVE = {
       players: [
         { pos: "TOP", nick: "Janus", name: "엄예준", until: 2027 },
         { pos: "JGL", nick: "MihawK", name: "김주형", until: 2027 },
-        { pos: "MID", nick: "SeTab", name: "송경진", until: 2026, ended: true },
-        { pos: "BOT", nick: "Lucy", name: "현수훈", until: 2026 },
+        { pos: "MID", nick: "Kemish", name: "김시훈", until: null, note: "← GEN 2군" },
+        { pos: "BOT", nick: "Lucy", name: "현수훈", until: null, note: "재계약" },
         { pos: "SUP", nick: "Pleata", name: "손민우", until: 2026, ended: true },
+        { pos: "SUP", nick: "Pollu", name: "오동규", until: null, note: "← KT 2군" },
       ],
       staff: [
         { role: "코치", nick: "bon0", name: "김기범", until: 2026 },
@@ -325,6 +324,7 @@ window.STOVE = {
       players: [
         { pos: "TOP", nick: "DDahyuk", name: "안민혁", until: 2026, ended: true },
         { pos: "MID", nick: "Tempester", name: "오영웅", until: 2026, ended: true },
+        { pos: "MID", nick: "SeTab", name: "송경진", until: null, note: "← NS 2군" },
         { pos: "BOT", nick: "OddEye", name: "조형진", until: 2026 },
         { pos: "SUP", nick: "PlanB", name: "홍준석", until: 2026 },
       ],
