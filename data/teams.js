@@ -168,12 +168,12 @@ window.STOVE = {
     players: [
       { pos: "TOP", nick: "Siwoo", name: "전시우", until: 2027, rumorNote: "→ GEN/HLE설" },
       { pos: "JGL", nick: "Lucid", name: "최용혁", until: 2027 },
-      { pos: "MID", nick: "ShowMaker", name: "허수", until: 2026 },
-      { pos: "BOT", nick: "Smash", name: "신금재", until: 2026 },
+      { pos: "MID", nick: "ShowMaker", name: "허수", until: 2027, note: "재계약" },
+      { pos: "BOT", nick: "Smash", name: "신금재", until: 2027, note: "재계약" },
       { pos: "SUP", nick: "Career", name: "오형석", until: 2027 },
     ],
     staff: [
-      { role: "감독", nick: "cvMax", name: "김대호", until: 2026, rumorNote: "→ KRX설" },
+      { role: "감독", nick: "cvMax", name: "김대호", until: 2027, note: "재계약" },
       { role: "코치", nick: "Hachani", name: "하승찬", until: 2026 },
       { role: "코치", nick: "PoohManDu", name: "이정현", until: 2026 },
     ],
@@ -347,7 +347,6 @@ window.STOVE = {
       { role: "감독", nick: "Joker", name: "조재읍", until: 2026, ended: true },
       { role: "코치", nick: "Naehyun", name: "유내현", until: 2026, ended: true },
       { role: "코치", nick: "Saroo", name: "이종원", until: 2026 },
-      { role: "감독", nick: "cvMax", name: "김대호", until: null, rumor: true, note: "← DK" },
     ],
     second: {
       name: "Kiwoom DRX Challengers",
