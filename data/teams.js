@@ -237,9 +237,9 @@ window.STOVE = {
       { pos: "MID", nick: "Scout", name: "이예찬", until: 2026, ended: true, rumorNote: "→ KRX설" },
       { pos: "BOT", nick: "Diable", name: "남대근", until: 2026, ended: true },
       { pos: "SUP", nick: "Lehends", name: "손시우", until: 2026, ended: true, rumorNote: "→ DNS설" },
-      { pos: "JGL", nick: "Pyosik", name: "홍창현", until: null, rumor: true, note: "← DNS" },
+      { pos: "JGL", nick: "Pyosik", name: "홍창현", until: 2027, note: "← DNS" },
       { pos: "BOT", nick: "Deft", name: "김혁규", until: 2027 },
-      { pos: "SUP", nick: "Andil", name: "문관빈", until: null, rumor: true, note: "← KRX" },
+      { pos: "SUP", nick: "Andil", name: "문관빈", until: 2027, note: "← KRX" },
     ],
     staff: [
       { role: "감독", nick: "DanDy", name: "최인규", until: 2027 },
@@ -265,7 +265,6 @@ window.STOVE = {
     logo: "assets/logos/dns.webp",
     players: [
       { pos: "TOP", nick: "DuDu", name: "이동주", until: 2028 },
-      { pos: "JGL", nick: "Pyosik", name: "홍창현", until: 2026, ended: true, rumorNote: "→ NS설" },
       { pos: "JGL", nick: "Sharvel", name: "김단우", until: 2026, ended: true, rumorNote: "→ GEN설" },
       { pos: "MID", nick: "Clozer", name: "이주현", until: 2026, ended: true },
       { pos: "BOT", nick: "deokdam", name: "서대길", until: 2027 },
@@ -339,7 +338,6 @@ window.STOVE = {
       { pos: "TOP", nick: "Frog", name: "이민회", until: 2026, ended: true },
       { pos: "JGL", nick: "Willer", name: "김정현", until: 2026, ended: true },
       { pos: "BOT", nick: "Aiming", name: "김하람", until: 2026, ended: true },
-      { pos: "SUP", nick: "Andil", name: "문관빈", until: 2026, ended: true, rumorNote: "→ NS설" },
       { pos: "TOP", nick: "Doran", name: "최현준", until: null, rumor: true, note: "← T1" },
       { pos: "JGL", nick: "Kanavi", name: "서진혁", until: null, rumor: true, note: "← HLE" },
       { pos: "MID", nick: "Scout", name: "이예찬", until: null, rumor: true, note: "← NS" },
