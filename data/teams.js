@@ -60,7 +60,7 @@ window.STOVE = {
     id: "hle", name: "한화생명e스포츠", color: "#f47b20",
     logo: "assets/logos/hle.png",
     players: [
-      { pos: "TOP", nick: "Zeus", name: "최우제", until: 2026, rumorNote: "→ T1설" },
+      { pos: "TOP", nick: "Zeus", name: "최우제", until: 2026, ended: true, rumorNote: "→ T1설" },
       { pos: "JGL", nick: "Kanavi", name: "서진혁", until: 2026, rumorNote: "→ KRX설" },
       { pos: "MID", nick: "Zeka", name: "김건우", until: 2027 },
       { pos: "BOT", nick: "Gumayusi", name: "이민형", until: 2027 },
