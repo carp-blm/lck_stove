@@ -65,7 +65,6 @@ window.STOVE = {
       { pos: "MID", nick: "Zeka", name: "김건우", until: 2027 },
       { pos: "BOT", nick: "Gumayusi", name: "이민형", until: 2027 },
       { pos: "SUP", nick: "Delight", name: "유환중", until: 2027 },
-      { pos: "SUP", nick: "Career", name: "오형석", until: 2027, note: "← DK" },
       { pos: "TOP", nick: "Kiin", name: "김기인", until: 2027, note: "← GEN" },
       { pos: "TOP", nick: "Siwoo", name: "전시우", until: null, rumor: true, note: "← DK" },
       { pos: "JGL", nick: "Canyon", name: "김건부", until: 2027, note: "← GEN · 1+1(선수)" },
@@ -171,6 +170,7 @@ window.STOVE = {
       { pos: "JGL", nick: "Lucid", name: "최용혁", until: 2027 },
       { pos: "MID", nick: "ShowMaker", name: "허수", until: 2026 },
       { pos: "BOT", nick: "Smash", name: "신금재", until: 2026 },
+      { pos: "SUP", nick: "Career", name: "오형석", until: 2027 },
     ],
     staff: [
       { role: "감독", nick: "cvMax", name: "김대호", until: 2026, rumorNote: "→ KRX설" },
