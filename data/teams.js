@@ -237,7 +237,7 @@ window.STOVE = {
       { pos: "MID", nick: "Calix", name: "선현빈", until: 2028, note: "재계약" },
       { pos: "MID", nick: "Scout", name: "이예찬", until: 2026, ended: true, rumorNote: "→ KRX설" },
       { pos: "BOT", nick: "Diable", name: "남대근", until: 2026, ended: true },
-      { pos: "SUP", nick: "Lehends", name: "손시우", until: 2026, ended: true },
+      { pos: "SUP", nick: "Lehends", name: "손시우", until: 2026, ended: true, rumorNote: "→ KRX설" },
       { pos: "JGL", nick: "Pyosik", name: "홍창현", until: 2027, note: "← DNS" },
       { pos: "BOT", nick: "Deft", name: "김혁규", until: 2027 },
       { pos: "SUP", nick: "Andil", name: "문관빈", until: 2027, note: "← KRX" },
@@ -348,6 +348,7 @@ window.STOVE = {
       { pos: "JGL", nick: "Kanavi", name: "서진혁", until: null, rumor: true, note: "← HLE" },
       { pos: "MID", nick: "Scout", name: "이예찬", until: null, rumor: true, note: "← NS" },
       { pos: "BOT", nick: "Viper", name: "박도현", until: null, rumor: true },
+      { pos: "SUP", nick: "Lehends", name: "손시우", until: null, rumor: true, note: "← NS" },
     ],
     staff: [
       { role: "감독", nick: "Joker", name: "조재읍", until: 2026, ended: true },
