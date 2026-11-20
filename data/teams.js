@@ -291,10 +291,10 @@ window.STOVE = {
         { pos: "JGL", nick: "DDoiV", name: "방문영", until: 2026, ended: true },
         { pos: "MID", nick: "Flip", name: "김상욱", until: 2026 },
         { pos: "BOT", nick: "Enosh", name: "곽규준", until: 2026, ended: true },
-        { pos: "TOP", nick: "Junu", until: 2027, note: "콜업" },
+        { pos: "TOP", nick: "Junu", name: "최준우", until: 2027, note: "콜업" },
         { pos: "JGL", nick: "Carim", name: "오재승", until: 2027, note: "← T1 2군" },
-        { pos: "MID", nick: "Soft", until: 2027, note: "콜업" },
-        { pos: "BOT", nick: "Jinbeom", name: "천진범", until: 2027 },
+        { pos: "JGL", nick: "Soft", name: "허찬", until: 2027, note: "콜업" },
+        { pos: "BOT", nick: "Jinbeom", name: "천진범", until: 2027, note: "← T1 Rookies" },
         { pos: "SUP", nick: "Quantum", name: "손정환", until: 2026, ended: true, rumorNote: "→ BFX설" },
       ],
       staff: [
