@@ -39,7 +39,6 @@ window.STOVE = {
     ],
     staff: [
       { role: "감독", nick: "Ryu", name: "류상욱", until: 2028 },
-      { role: "코치", nick: "Lyn", name: "김다빈", until: 2026, ended: true },
       { role: "코치", nick: "Nova", name: "박찬호", until: 2026, ended: true },
     ],
     second: {
@@ -61,14 +60,15 @@ window.STOVE = {
     logo: "assets/logos/hle.png",
     players: [
       { pos: "TOP", nick: "Zeus", name: "최우제", until: 2026, ended: true, rumorNote: "→ T1설" },
-      { pos: "JGL", nick: "Kanavi", name: "서진혁", until: 2026, ended: true, rumorNote: "→ KRX설" },
+      { pos: "JGL", nick: "Kanavi", name: "서진혁", until: 2026, ended: true, rumorNote: "→ KRX/DK설" },
       { pos: "MID", nick: "Zeka", name: "김건우", until: 2027 },
       { pos: "BOT", nick: "Gumayusi", name: "이민형", until: 2027 },
-      { pos: "SUP", nick: "Delight", name: "유환중", until: 2027 },
+      { pos: "SUP", nick: "Delight", name: "유환중", until: 2027, rumorNote: "→ DK설" },
       { pos: "TOP", nick: "Kiin", name: "김기인", until: 2027, note: "← GEN" },
       { pos: "TOP", nick: "Siwoo", name: "전시우", until: null, rumor: true, note: "← DK" },
       { pos: "JGL", nick: "Canyon", name: "김건부", until: 2027, note: "← GEN · 1+1(선수)" },
       { pos: "SUP", nick: "Cloud", name: "문현호", until: null, rumor: true, note: "← T1 2군 · Delight와 경합" },
+      { pos: "SUP", nick: "Career", name: "오형석", until: null, rumor: true, note: "← DK" },
     ],
     staff: [
       { role: "감독", nick: "Homme", name: "윤성영", until: 2026, ended: true },
@@ -95,7 +95,7 @@ window.STOVE = {
     id: "t1", name: "T1", color: "#e4002b",
     logo: "assets/logos/t1.png",
     players: [
-      { pos: "TOP", nick: "Doran", name: "최현준", until: 2026, ended: true, rumorNote: "→ KRX설" },
+      { pos: "TOP", nick: "Doran", name: "최현준", until: 2026, ended: true, rumorNote: "→ KRX/DK설" },
       { pos: "JGL", nick: "Oner", name: "문현준", until: 2028 },
       { pos: "MID", nick: "Faker", name: "이상혁", until: 2029 },
       { pos: "BOT", nick: "Peyz", name: "김수환", until: 2028 },
@@ -116,7 +116,6 @@ window.STOVE = {
       players: [
         { pos: "TOP", nick: "Guardian", name: "성태효", until: 2026 },
         { pos: "TOP", nick: "Haetae", name: "심수현", until: 2026, rumorNote: "→ BFX설" },
-        { pos: "JGL", nick: "Carim", name: "오재승", until: 2026 },
         { pos: "JGL", nick: "Painter", name: "김은후", until: 2026 },
         { pos: "MID", nick: "Guti", name: "문정환", until: 2026, ended: true },
         { pos: "BOT", nick: "Cypher", name: "김유준", until: 2026, ended: true },
@@ -139,7 +138,7 @@ window.STOVE = {
       { pos: "SUP", nick: "Effort", name: "이상호", until: 2026, ended: true },
       { pos: "JGL", nick: "Raptor", name: "전어진", until: 2027, note: "← BFX" },
       { pos: "BOT", nick: "Taeyoon", name: "김태윤", until: null, rumor: true, note: "← BFX" },
-      { pos: "SUP", nick: "Kellin", name: "김형규", until: null, rumor: true, note: "← BFX" },
+      { pos: "SUP", nick: "Kellin", name: "김형규", until: 2028, note: "← BFX" },
     ],
     staff: [
       { role: "감독", nick: "Score", name: "고동빈", until: 2029 },
@@ -170,7 +169,10 @@ window.STOVE = {
       { pos: "JGL", nick: "Lucid", name: "최용혁", until: 2027 },
       { pos: "MID", nick: "ShowMaker", name: "허수", until: 2027, note: "재계약" },
       { pos: "BOT", nick: "Smash", name: "신금재", until: 2027, note: "재계약" },
-      { pos: "SUP", nick: "Career", name: "오형석", until: 2027 },
+      { pos: "SUP", nick: "Career", name: "오형석", until: 2027, rumorNote: "→ HLE설" },
+      { pos: "TOP", nick: "Doran", name: "최현준", until: null, rumor: true, note: "← T1" },
+      { pos: "JGL", nick: "Kanavi", name: "서진혁", until: null, rumor: true, note: "← HLE" },
+      { pos: "SUP", nick: "Delight", name: "유환중", until: null, rumor: true, note: "← HLE" },
     ],
     staff: [
       { role: "감독", nick: "cvMax", name: "김대호", until: 2027, note: "재계약" },
@@ -200,12 +202,12 @@ window.STOVE = {
       { pos: "MID", nick: "Daystar", name: "유지명", until: 2026, ended: true },
       { pos: "MID", nick: "VicLa", name: "이대광", until: 2027 },
       { pos: "BOT", nick: "Taeyoon", name: "김태윤", until: 2026, ended: true, rumorNote: "→ KT설" },
-      { pos: "SUP", nick: "Kellin", name: "김형규", until: 2026, ended: true, rumorNote: "→ KT설" },
       { pos: "TOP", nick: "Hoya", name: "윤용호", until: null, rumor: true, note: "Hoya/Burdol/Haetae 중" },
       { pos: "TOP", nick: "Burdol", name: "노태윤", until: null, rumor: true, note: "Hoya/Burdol/Haetae 중" },
       { pos: "TOP", nick: "Haetae", name: "심수현", until: null, rumor: true, note: "← T1 2군 · Hoya/Burdol/Haetae 중" },
       { pos: "JGL", nick: "Vincenzo", name: "하승민", until: 2028, note: "← KRX" },
-      { pos: "BOT", nick: "Noah", name: "오현택", until: null, rumor: true },
+      { pos: "BOT", nick: "Noah", name: "오현택", until: 2027 },
+      { pos: "TOP", nick: "Thanatos", name: "박승규", until: null, rumor: true },
       { pos: "SUP", nick: "Quantum", name: "손정환", until: null, rumor: true, note: "← DNS 2군" },
     ],
     staff: [
@@ -243,6 +245,7 @@ window.STOVE = {
     ],
     staff: [
       { role: "감독", nick: "DanDy", name: "최인규", until: 2027 },
+      { role: "코치", nick: "Lyn", name: "김다빈", until: 2027, note: "← GEN" },
       { role: "코치", nick: "Chelly", name: "박승진", until: 2027 },
     ],
     second: {
@@ -288,6 +291,10 @@ window.STOVE = {
         { pos: "JGL", nick: "DDoiV", name: "방문영", until: 2026, ended: true },
         { pos: "MID", nick: "Flip", name: "김상욱", until: 2026 },
         { pos: "BOT", nick: "Enosh", name: "곽규준", until: 2026, ended: true },
+        { pos: "TOP", nick: "Junu", until: 2027, note: "콜업" },
+        { pos: "JGL", nick: "Carim", name: "오재승", until: 2027, note: "← T1 2군" },
+        { pos: "MID", nick: "Soft", until: 2027, note: "콜업" },
+        { pos: "BOT", nick: "Jinbeom", name: "천진범", until: 2027 },
         { pos: "SUP", nick: "Quantum", name: "손정환", until: 2026, ended: true, rumorNote: "→ BFX설" },
       ],
       staff: [
