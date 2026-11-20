@@ -33,7 +33,7 @@ window.STOVE = {
     players: [
       { pos: "MID", nick: "Chovy", name: "정지훈", until: 2027 },
       { pos: "BOT", nick: "Ruler", name: "박재혁", until: 2027 },
-      { pos: "SUP", nick: "Duro", name: "주민규", until: 2027 },
+      { pos: "SUP", nick: "Duro", name: "주민규", until: 2027, rumorNote: "→ KRX설" },
       { pos: "TOP", nick: "Siwoo", name: "전시우", until: null, rumor: true, note: "← DK" },
       { pos: "JGL", nick: "Sharvel", name: "김단우", until: null, rumor: true, note: "← DNS" },
     ],
@@ -349,6 +349,7 @@ window.STOVE = {
       { pos: "MID", nick: "Scout", name: "이예찬", until: null, rumor: true, note: "← NS" },
       { pos: "BOT", nick: "Viper", name: "박도현", until: null, rumor: true },
       { pos: "SUP", nick: "Lehends", name: "손시우", until: null, rumor: true, note: "← NS" },
+      { pos: "SUP", nick: "Duro", name: "주민규", until: null, rumor: true, note: "← GEN" },
     ],
     staff: [
       { role: "감독", nick: "Joker", name: "조재읍", until: 2026, ended: true },
