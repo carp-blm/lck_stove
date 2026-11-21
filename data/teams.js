@@ -100,9 +100,9 @@ window.STOVE = {
       { pos: "TOP", nick: "Zeus", name: "최우제", until: null, rumor: true, note: "← HLE" },
     ],
     staff: [
-      { role: "감독", nick: "kkOma", name: "김정균", until: 2026 },
-      { role: "감독대행", nick: "Tom", name: "임재현", until: 2026, rumorNote: "코치 잔류설" },
-      { role: "코치", nick: "Mata", name: "조세형", until: 2026 },
+      { role: "감독", nick: "kkOma", name: "김정균", until: 2026, ended: true },
+      { role: "감독대행", nick: "Tom", name: "임재현", until: 2026, ended: true, rumorNote: "코치 잔류설" },
+      { role: "코치", nick: "Mata", name: "조세형", until: 2026, ended: true },
       { role: "코치", nick: "Easyhoon", name: "이지훈", until: 2026 },
       { role: "코치", nick: "UmTi", name: "엄성현", until: null, rumor: true },
       { role: "감독", nick: "Roach", name: "김강희", until: null, rumor: true },
@@ -133,6 +133,7 @@ window.STOVE = {
       { pos: "MID", nick: "Bdd", name: "곽보성", until: 2028 },
       { pos: "BOT", nick: "Jiwoo", name: "정지우", until: 2026, ended: true },
       { pos: "SUP", nick: "Effort", name: "이상호", until: 2026, ended: true },
+      { pos: "SUP", nick: "Zzus", name: "장준수", until: 2027, note: "콜업" },
       { pos: "JGL", nick: "Raptor", name: "전어진", until: 2027, note: "← BFX" },
       { pos: "BOT", nick: "Taeyoon", name: "김태윤", until: null, rumor: true, note: "← BFX" },
       { pos: "SUP", nick: "Kellin", name: "김형규", until: 2028, note: "← BFX" },
@@ -155,6 +156,7 @@ window.STOVE = {
       staff: [
         { role: "감독", nick: "Spark", name: "강병률", until: 2026, ended: true },
         { role: "코치", nick: "Lilac", name: "전호진", until: 2026, ended: true },
+        { role: "코치", nick: "Zero", name: "윤경섭", until: 2027 },
       ],
     },
   },
