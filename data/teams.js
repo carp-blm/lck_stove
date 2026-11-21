@@ -133,7 +133,6 @@ window.STOVE = {
       { pos: "MID", nick: "Bdd", name: "곽보성", until: 2028 },
       { pos: "BOT", nick: "Jiwoo", name: "정지우", until: 2026, ended: true },
       { pos: "SUP", nick: "Effort", name: "이상호", until: 2026, ended: true },
-      { pos: "SUP", nick: "Zzus", name: "장준수", until: 2027, note: "콜업" },
       { pos: "JGL", nick: "Raptor", name: "전어진", until: 2027, note: "← BFX" },
       { pos: "BOT", nick: "Taeyoon", name: "김태윤", until: null, rumor: true, note: "← BFX" },
       { pos: "SUP", nick: "Kellin", name: "김형규", until: 2028, note: "← BFX" },
@@ -141,6 +140,7 @@ window.STOVE = {
     staff: [
       { role: "감독", nick: "Score", name: "고동빈", until: 2029 },
       { role: "코치", nick: "Museong", name: "김무성", until: 2027 },
+      { role: "코치", nick: "Zzus", name: "장준수", until: 2027, note: "← KT 3군 콜업" },
       { role: "코치", nick: "Sonstar", name: "손승익", until: 2026, ended: true, rumorNote: "→ HLE설" },
       { role: "전력분석관", nick: "Highness", name: "박지원", until: null },
     ],
