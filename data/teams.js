@@ -36,6 +36,7 @@ window.STOVE = {
       { pos: "SUP", nick: "Duro", name: "주민규", until: 2027, rumorNote: "→ KRX설" },
       { pos: "TOP", nick: "Siwoo", name: "전시우", until: null, rumor: true, note: "← DK" },
       { pos: "JGL", nick: "Sharvel", name: "김단우", until: null, rumor: true, note: "← DNS" },
+      { pos: "SUP", nick: "Cloud", name: "문현호", until: null, rumor: true, note: "← T1 2군" },
     ],
     staff: [
       { role: "감독", nick: "Ryu", name: "류상욱", until: 2028 },
@@ -117,7 +118,7 @@ window.STOVE = {
         { pos: "MID", nick: "Guti", name: "문정환", until: 2026, ended: true },
         { pos: "BOT", nick: "Cypher", name: "김유준", until: 2026, ended: true },
         { pos: "BOT", nick: "Eclipse", name: "김민준", until: 2026 },
-        { pos: "SUP", nick: "Cloud", name: "문현호", until: 2026, ended: true, rumorNote: "→ HLE설" },
+        { pos: "SUP", nick: "Cloud", name: "문현호", until: 2026, ended: true, rumorNote: "→ HLE/GEN설" },
       ],
       staff: [
         { role: "감독", nick: "DooTi", name: "최두성", until: 2026 },
