@@ -169,7 +169,6 @@ window.STOVE = {
       { pos: "JGL", nick: "Lucid", name: "최용혁", until: 2027 },
       { pos: "MID", nick: "ShowMaker", name: "허수", until: 2027, note: "재계약" },
       { pos: "BOT", nick: "Smash", name: "신금재", until: 2027, note: "재계약" },
-      { pos: "SUP", nick: "Career", name: "오형석", until: 2027, ended: true },
       { pos: "TOP", nick: "Doran", name: "최현준", until: 2027, note: "← T1" },
       { pos: "JGL", nick: "Kanavi", name: "서진혁", until: 2027, note: "← HLE" },
       { pos: "SUP", nick: "Delight", name: "유환중", until: null, rumor: true, note: "← HLE" },
