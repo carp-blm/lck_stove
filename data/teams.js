@@ -67,7 +67,7 @@ window.STOVE = {
       { pos: "TOP", nick: "Kiin", name: "김기인", until: 2027, note: "← GEN" },
       { pos: "JGL", nick: "Canyon", name: "김건부", until: 2027, note: "← GEN · 1+1(선수)" },
       { pos: "SUP", nick: "Cloud", name: "문현호", until: null, rumor: true, note: "← T1 2군 · Delight와 경합" },
-      { pos: "SUP", nick: "Career", name: "오형석", until: null, note: "← DK" },
+      { pos: "SUP", nick: "Career", name: "오형석", until: 2027, note: "← DK" },
     ],
     staff: [
       { role: "감독", nick: "Homme", name: "윤성영", until: 2026, ended: true },
@@ -169,6 +169,7 @@ window.STOVE = {
       { pos: "JGL", nick: "Lucid", name: "최용혁", until: 2027 },
       { pos: "MID", nick: "ShowMaker", name: "허수", until: 2027, note: "재계약" },
       { pos: "BOT", nick: "Smash", name: "신금재", until: 2027, note: "재계약" },
+      { pos: "SUP", nick: "Career", name: "오형석", until: 2027, ended: true },
       { pos: "TOP", nick: "Doran", name: "최현준", until: 2027, note: "← T1" },
       { pos: "JGL", nick: "Kanavi", name: "서진혁", until: 2027, note: "← HLE" },
       { pos: "SUP", nick: "Delight", name: "유환중", until: null, rumor: true, note: "← HLE" },
@@ -341,13 +342,13 @@ window.STOVE = {
     logo: "assets/logos/krx.png",
     players: [
       { pos: "TOP", nick: "Frog", name: "이민회", until: 2026, ended: true },
-      { pos: "TOP", nick: "Haetae", name: "심수현", until: null, rumor: true, note: "← T1 2군" },
+      { pos: "TOP", nick: "Haetae", name: "심수현", until: 2027, rumor: true, note: "← T1 2군" },
       { pos: "JGL", nick: "Willer", name: "김정현", until: 2026, ended: true },
       { pos: "BOT", nick: "Aiming", name: "김하람", until: 2026, ended: true },
       { pos: "MID", nick: "Scout", name: "이예찬", until: null, rumor: true, note: "← NS" },
       { pos: "BOT", nick: "Viper", name: "박도현", until: null, rumor: true },
       { pos: "SUP", nick: "Lehends", name: "손시우", until: null, rumor: true, note: "← NS" },
-      { pos: "SUP", nick: "Duro", name: "주민규", until: null, rumor: true, note: "← GEN" },
+      { pos: "SUP", nick: "Duro", name: "주민규", until: 2027, rumor: true, note: "← GEN" },
     ],
     staff: [
       { role: "감독", nick: "Joker", name: "조재읍", until: 2026, ended: true },
