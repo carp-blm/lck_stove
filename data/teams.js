@@ -33,10 +33,10 @@ window.STOVE = {
     players: [
       { pos: "MID", nick: "Chovy", name: "정지훈", until: 2027 },
       { pos: "BOT", nick: "Ruler", name: "박재혁", until: 2027 },
-      { pos: "SUP", nick: "Duro", name: "주민규", until: 2027, rumorNote: "→ KRX설" },
-      { pos: "TOP", nick: "Siwoo", name: "전시우", until: null, rumor: true, note: "← DK" },
-      { pos: "JGL", nick: "Sharvel", name: "김단우", until: null, rumor: true, note: "← DNS" },
-      { pos: "SUP", nick: "Cloud", name: "문현호", until: null, rumor: true, note: "← T1 2군" },
+      { pos: "SUP", nick: "Duro", name: "주민규", until: 2027, ended: true, rumorNote: "→ KRX설" },
+      { pos: "TOP", nick: "Siwoo", name: "전시우", until: 2027, note: "← DK" },
+      { pos: "JGL", nick: "Sharvel", name: "김단우", until: 2027, note: "← DNS" },
+      { pos: "SUP", nick: "Cloud", name: "문현호", until: 2027, note: "← T1 2군" },
     ],
     staff: [
       { role: "감독", nick: "Ryu", name: "류상욱", until: 2028 },
@@ -66,7 +66,6 @@ window.STOVE = {
       { pos: "SUP", nick: "Delight", name: "유환중", until: 2027, ended: true, rumorNote: "→ DK설" },
       { pos: "TOP", nick: "Kiin", name: "김기인", until: 2027, note: "← GEN" },
       { pos: "JGL", nick: "Canyon", name: "김건부", until: 2027, note: "← GEN · 1+1(선수)" },
-      { pos: "SUP", nick: "Cloud", name: "문현호", until: null, rumor: true, note: "← T1 2군 · Delight와 경합" },
       { pos: "SUP", nick: "Career", name: "오형석", until: 2027, note: "← DK" },
     ],
     staff: [
@@ -118,7 +117,6 @@ window.STOVE = {
         { pos: "MID", nick: "Guti", name: "문정환", until: 2026, ended: true },
         { pos: "BOT", nick: "Cypher", name: "김유준", until: 2026, ended: true },
         { pos: "BOT", nick: "Eclipse", name: "김민준", until: 2026 },
-        { pos: "SUP", nick: "Cloud", name: "문현호", until: 2026, ended: true, rumorNote: "→ HLE/GEN설" },
       ],
       staff: [
         { role: "감독", nick: "DooTi", name: "최두성", until: 2026 },
@@ -164,7 +162,6 @@ window.STOVE = {
     id: "dk", name: "디플러스 기아", color: "#20c3b8",
     logo: "assets/logos/dk.png",
     players: [
-      { pos: "TOP", nick: "Siwoo", name: "전시우", until: 2027, ended: true, rumorNote: "→ GEN설" },
       { pos: "JGL", nick: "Lucid", name: "최용혁", until: 2027 },
       { pos: "MID", nick: "ShowMaker", name: "허수", until: 2027, note: "재계약" },
       { pos: "BOT", nick: "Smash", name: "신금재", until: 2027, note: "재계약" },
@@ -266,7 +263,6 @@ window.STOVE = {
     logo: "assets/logos/dns.webp",
     players: [
       { pos: "TOP", nick: "DuDu", name: "이동주", until: 2028 },
-      { pos: "JGL", nick: "Sharvel", name: "김단우", until: 2026, ended: true, rumorNote: "→ GEN설" },
       { pos: "MID", nick: "Clozer", name: "이주현", until: 2026, ended: true },
       { pos: "BOT", nick: "deokdam", name: "서대길", until: 2027 },
       { pos: "SUP", nick: "Bluffing", name: "박규용", until: 2028, note: "← HLE 2군" },
