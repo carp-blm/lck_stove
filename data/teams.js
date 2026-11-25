@@ -60,7 +60,6 @@ window.STOVE = {
     id: "hle", name: "한화생명e스포츠", color: "#f47b20",
     logo: "assets/logos/hle.png",
     players: [
-      { pos: "TOP", nick: "Zeus", name: "최우제", until: 2026, ended: true, rumorNote: "→ T1설" },
       { pos: "MID", nick: "Zeka", name: "김건우", until: 2027 },
       { pos: "BOT", nick: "Gumayusi", name: "이민형", until: 2027 },
       { pos: "SUP", nick: "Delight", name: "유환중", until: 2027, ended: true, rumorNote: "→ DK설" },
@@ -97,7 +96,7 @@ window.STOVE = {
       { pos: "MID", nick: "Faker", name: "이상혁", until: 2029 },
       { pos: "BOT", nick: "Peyz", name: "김수환", until: 2028 },
       { pos: "SUP", nick: "Keria", name: "류민석", until: 2029 },
-      { pos: "TOP", nick: "Zeus", name: "최우제", until: null, rumor: true, note: "← HLE" },
+      { pos: "TOP", nick: "Zeus", name: "최우제", until: 2029, note: "← HLE" },
     ],
     staff: [
       { role: "감독", nick: "kkOma", name: "김정균", until: 2026, ended: true },
@@ -133,7 +132,7 @@ window.STOVE = {
       { pos: "BOT", nick: "Jiwoo", name: "정지우", until: 2026, ended: true },
       { pos: "SUP", nick: "Effort", name: "이상호", until: 2026, ended: true },
       { pos: "JGL", nick: "Raptor", name: "전어진", until: 2027, note: "← BFX" },
-      { pos: "BOT", nick: "Taeyoon", name: "김태윤", until: null, rumor: true, note: "← BFX" },
+      { pos: "BOT", nick: "Taeyoon", name: "김태윤", until: 2027, note: "← BFX" },
       { pos: "SUP", nick: "Kellin", name: "김형규", until: 2028, note: "← BFX" },
     ],
     staff: [
@@ -196,13 +195,12 @@ window.STOVE = {
       { pos: "TOP", nick: "Clear", name: "송현민", until: 2026, ended: true },
       { pos: "MID", nick: "Daystar", name: "유지명", until: 2026, ended: true },
       { pos: "MID", nick: "VicLa", name: "이대광", until: 2027 },
-      { pos: "BOT", nick: "Taeyoon", name: "김태윤", until: 2026, ended: true, rumorNote: "→ KT설" },
       { pos: "TOP", nick: "Hoya", name: "윤용호", until: null, rumor: true, note: "Hoya/Burdol/Haetae 중" },
       { pos: "TOP", nick: "Burdol", name: "노태윤", until: null, rumor: true, note: "Hoya/Burdol/Haetae 중" },
       { pos: "TOP", nick: "Haetae", name: "심수현", until: null, rumor: true, note: "← T1 2군 · Hoya/Burdol/Haetae 중" },
       { pos: "JGL", nick: "Vincenzo", name: "하승민", until: 2028, note: "← KRX" },
       { pos: "BOT", nick: "Noah", name: "오현택", until: 2027 },
-      { pos: "TOP", nick: "Thanatos", name: "박승규", until: null, rumor: true },
+      { pos: "TOP", nick: "Thanatos", name: "박승규", until: 2028 },
       { pos: "SUP", nick: "Quantum", name: "손정환", until: null, rumor: true, note: "← DNS 2군" },
     ],
     staff: [
